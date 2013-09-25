@@ -348,7 +348,7 @@
 			<key>name</key>
 			<string>constant.numeric.js</string>
 		</dict>
-		<dict>
+		<!--<dict>
 			<key>begin</key>
 			<string>&lt;</string>
 			<key>beginCaptures</key>
@@ -380,7 +380,7 @@
 					<string>constant.character.escape.js</string>
 				</dict>
 			</array>
-		</dict>
+		</dict>-->
 		<dict>
 			<key>begin</key>
 			<string>'</string>
@@ -543,13 +543,19 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(PHP_EOL|PHP_VERSION)\b</string>
+			<string>\b(PHP_EOL|PHP_VERSION|([A-Z0-9\_]+))\b</string>
 			<key>name</key>
-			<string>support.constant.dom.js</string>
+			<string>string.regexp.js</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>!|\$|%|&amp;|\*|\-\-|\-|\+\+|\+|~|===|==|=|!=|!==|&lt;=|&gt;=|&lt;&lt;=|&gt;&gt;=|&gt;&gt;&gt;=|&lt;&gt;|&lt;|&gt;|!|&amp;&amp;|\|\||\?\:|\*=|(?&lt;!\()/=|%=|\+=|\-=|&amp;=|\^=|\b(in|instanceof|new|typeof|void)\b</string>
+			<string>-&gt;|::</string>
+			<key>name</key>
+			<string>keyword.operator.js</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>!|\$|%|&amp;|\*|\-\-|\-|\+\+|\+|~|===|==|=|!=|!==|&lt;=|&gt;=|&lt;&lt;=|&gt;&gt;=|&gt;&gt;&gt;=|&lt;&gt;|&lt;|&gt;|!|&amp;&amp;|\|\||\?\:|\*=|(?&lt;!\()/=|%=|\+=|\-=|&amp;=|\.=|\^=|\b(in|instanceof|new|typeof|void)\b</string>
 			<key>name</key>
 			<string>keyword.operator.js</string>
 		</dict>
