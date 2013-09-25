@@ -1,5 +1,5 @@
 Zephir Syntax Highlight
-=====================
+=======================
 
 ![Zephir-Bundle](http://www.phalconphp.com/img/spectral.jpg)
 
@@ -7,7 +7,7 @@ A [Sublime Text 2](http://www.sublimetext.com/) / [TextMate](http://macromates.c
 
 Installation
 ------------
-Depending on your OS copy the Volt directory to any of the following locations:
+Depending on your OS copy the Zephir directory to any of the following locations:
 
 #### Sublime Text 2
 
@@ -16,6 +16,7 @@ OS X
 
 Linux  
 `~/.Sublime Text 2/Packages`
+`~/.config/sublime-text-2/Packages`
 
 Windows  
 `%APPDATA%/Sublime Text 2/Packages/`

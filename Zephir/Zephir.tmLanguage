@@ -382,6 +382,12 @@
 			</array>
 		</dict>-->
 		<dict>
+			<key>match</key>
+			<string>&lt;([a-zA-Z0-9\_\\]+)&gt;</string>
+			<key>name</key>
+			<string>string.regexp.js</string>
+		</dict>
+		<dict>
 			<key>begin</key>
 			<string>'</string>
 			<key>beginCaptures</key>
@@ -495,7 +501,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(boolean|string|char|class|namespace|abstract|double|float|function|int|interface|long|var|void|ulong|uint|uchar|unsigned)\b</string>
+			<string>\b(boolean|string|char|class|namespace|get|__toString|set|abstract|double|float|function|int|interface|long|var|void|ulong|uint|uchar|unsigned)\b</string>
 			<key>name</key>
 			<string>storage.type.js</string>
 		</dict>
