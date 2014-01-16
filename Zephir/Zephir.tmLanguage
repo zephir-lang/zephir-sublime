@@ -501,13 +501,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(boolean|string|char|class|namespace|get|__toString|set|abstract|double|float|function|int|interface|long|var|void|ulong|uint|uchar|unsigned)\b</string>
+			<string>\b(boolean|string|char|class|namespace|get|__toString|set|abstract|double|float|function|int|interface|long|var|void|ulong|uint|uchar|unsigned|self)\b</string>
 			<key>name</key>
 			<string>storage.type.js</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(const|export|fetch|empty|likely|unlikely|isset|unset|extends|final|implements|private|protected|public|static|scoped|inline|throws)\b</string>
+			<string>\b(const|export|fetch|empty|likely|unlikely|isset|unset|extends|final|implements|private|protected|public|static|scoped|inline|throws|clone)\b</string>
 			<key>name</key>
 			<string>storage.modifier.js</string>
 		</dict>
