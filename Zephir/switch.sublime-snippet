@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[switch ${1:statement} {
+    case ${2:value}:
+        ${3:body}
+        break;
+    default ${4:value}
+        ${5:body}
+}]]></content>
+    <tabTrigger>switch</tabTrigger>
+    <description>Zephir: switch statement</description>
+    <scope>source.zep</scope>
+</snippet>

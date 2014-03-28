@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[while ${1:statement} {
+    ${2:body}
+}]]></content>
+    <tabTrigger>while</tabTrigger>
+    <description>Zephir: while statement</description>
+    <scope>source.zep</scope>
+</snippet>
