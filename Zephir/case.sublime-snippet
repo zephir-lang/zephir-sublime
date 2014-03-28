@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[case ${1:value}:
+    ${2:body}
+    break;
+}]]></content>
+    <tabTrigger>case</tabTrigger>
+    <description>Zephir: case statement</description>
+    <scope>source.zep</scope>
+</snippet>

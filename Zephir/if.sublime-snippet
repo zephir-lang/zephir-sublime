@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[if ${1:statement} {
+    ${2:body}
+}]]></content>
+    <tabTrigger>if</tabTrigger>
+    <description>Zephir: if statement</description>
+    <scope>source.zep</scope>
+</snippet>

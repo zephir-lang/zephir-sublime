@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[class ${1:name}
+{
+    public function __construct(${2:arguments})
+    {
+
+    }
+}]]></content>
+    <tabTrigger>class</tabTrigger>
+    <description>Zephir: class</description>
+    <scope>source.zep</scope>
+</snippet>
