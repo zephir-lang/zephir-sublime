@@ -501,7 +501,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(boolean|string|char|class|resource|object|callable|namespace|use|as|get|__toString|set|abstract|double|float|function|int|interface|long|var|void|ulong|uint|uchar|unsigned|self)\b</string>
+			<string>\b(boolean|string|char|class|resource|object|array|callable|namespace|use|as|get|__toString|set|abstract|double|float|function|int|interface|long|var|void|ulong|uint|uchar|unsigned|self)\b</string>
 			<key>name</key>
 			<string>storage.type.js</string>
 		</dict>
