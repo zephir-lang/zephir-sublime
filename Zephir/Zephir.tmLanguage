@@ -507,7 +507,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(const|fetch|empty|likely|unlikely|isset|unset|extends|final|implements|private|protected|public|static|scoped|inline|throws|clone)\b</string>
+			<string>\b(const|fetch|empty|likely|unlikely|isset|unset|extends|final|implements|private|protected|public|static|scoped|inline|deprecated|throws|clone)\b</string>
 			<key>name</key>
 			<string>storage.modifier.js</string>
 		</dict>
