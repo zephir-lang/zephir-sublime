@@ -513,7 +513,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(echo|require|break|case|catch|let|continue|default|do|else|for|goto|if|return|switch|throw|try|while|loop)\b</string>
+			<string>\b(echo|require|break|case|catch|let|continue|default|do|else|elseif|for|goto|if|return|switch|throw|try|while|loop)\b</string>
 			<key>name</key>
 			<string>keyword.control.js</string>
 		</dict>
