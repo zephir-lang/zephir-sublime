@@ -348,42 +348,9 @@
 			<key>name</key>
 			<string>constant.numeric.js</string>
 		</dict>
-		<!--<dict>
-			<key>begin</key>
-			<string>&lt;</string>
-			<key>beginCaptures</key>
-			<dict>
-				<key>0</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.string.begin.js</string>
-				</dict>
-			</dict>
-			<key>end</key>
-			<string>&gt;</string>
-			<key>endCaptures</key>
-			<dict>
-				<key>0</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.string.end.js</string>
-				</dict>
-			</dict>
-			<key>name</key>
-			<string>storage.type.function.js</string>
-			<key>patterns</key>
-			<array>
-				<dict>
-					<key>match</key>
-					<string>(\\\\)</string>
-					<key>name</key>
-					<string>constant.character.escape.js</string>
-				</dict>
-			</array>
-		</dict>-->
 		<dict>
 			<key>match</key>
-			<string>&lt;([a-zA-Z0-9\_\\]+)&gt;</string>
+			<string>&lt;([a-zA-Z0-9\_\\\!]+)&gt;</string>
 			<key>name</key>
 			<string>string.regexp.js</string>
 		</dict>
@@ -507,13 +474,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(const|fetch|empty|likely|unlikely|isset|unset|extends|final|implements|private|protected|public|static|scoped|inline|deprecated|enum|throws|clone)\b</string>
+			<string>\b(const|fetch|empty|likely|unlikely|isset|unset|extends|final|implements|private|protected|public|static|scoped|internal|inline|deprecated|enum|throws|clone)\b</string>
 			<key>name</key>
 			<string>storage.modifier.js</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(echo|require|break|case|catch|let|continue|default|do|else|elseif|for|goto|if|return|switch|throw|try|while|loop)\b</string>
+			<string>\b(echo|require|break|case|catch|let|continue|default|do|else|elseif|for|goto|if|return|switch|match|throw|try|while|loop)\b</string>
 			<key>name</key>
 			<string>keyword.control.js</string>
 		</dict>
