@@ -1,7 +1,7 @@
 Zephir Syntax Highlight
 =======================
 
-![Zephir-Bundle](http://www.phalconphp.com/img/spectral.jpg)
+![Zephir-Bundle](http://i.imgur.com/7cFLfoh.png)
 
 A [Sublime Text 2/3](http://www.sublimetext.com/) / [TextMate](http://macromates.com/) bundle for [Zephir](http://zephir-lang.com)
 
