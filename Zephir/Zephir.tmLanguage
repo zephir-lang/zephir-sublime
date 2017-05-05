@@ -570,7 +570,7 @@
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>source.zephir</string>
+	<string>source.php.zephir</string>
 	<key>uuid</key>
 	<string>D757833E-2573-11E3-9CA0-50E7973F7489</string>
 </dict>
