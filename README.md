@@ -16,9 +16,10 @@ it's awesome and you can [read about it here](http://wbond.net/sublime_packages/
 
 After installing the Package Control and restarting the editor:
 
-* Open the Command Pallete (`ctrl+shift+P` or `cmd+shift+P`).
-* Type "Install Package" and hit return.
-* Find "Zephir" and hit return.
+* Open the Command Pallete <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
+  (or <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>)
+* Type "Install Package" and hit <kbd>Enter</kbd>
+* Find "Zephir" and hit <kbd>Enter</kbd>
 
 
 ### Manual Installation
@@ -27,24 +28,29 @@ Depending on your OS copy the Zephir directory to any of the following locations
 
 #### Sublime Text
 
-OS X
-`~/Library/Application Support/Sublime Text 2/Packages`
-or
-`~/Library/Application Support/Sublime Text 3/Packages`
+**macOS**
 
-Linux
-`~/.Sublime Text 2/Packages`
+* `~/Library/Application Support/Sublime Text 2/Packages`
 or
-`~/.Sublime Text 3/Packages`
+* `~/Library/Application Support/Sublime Text 3/Packages`
 
-Windows
-`%APPDATA%/Sublime Text 2/Packages/`
+**Linux**
+
+* `~/.Sublime Text 2/Packages`
 or
-`%APPDATA%/Sublime Text 3/Packages/`
+* `~/.Sublime Text 3/Packages`
+
+**Windows**
+
+* `%APPDATA%/Sublime Text 2/Packages/`
+or
+* `%APPDATA%/Sublime Text 3/Packages/`
 
 #### TextMate
 
-`/Library/Application Support/TextMate/Bundles`
+**macOS**
+
+* `/Library/Application Support/TextMate/Bundles`
 
 ## License
 
