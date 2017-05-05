@@ -1,6 +1,6 @@
 # Zephir Syntax Highlight
 
-![Zephir-Bundle](http://i.imgur.com/7cFLfoh.png)
+![Zephir-Bundle](https://cloud.githubusercontent.com/assets/1256298/25757879/fea213e8-31d4-11e7-8821-38c1009e07bc.png)
 
 A [Sublime Text 2/3](http://www.sublimetext.com/) / [TextMate](http://macromates.com/) bundle for
 [Zephir](http://zephir-lang.com).
