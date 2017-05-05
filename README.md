@@ -31,19 +31,25 @@ Depending on your OS copy the Zephir directory to any of the following locations
 **macOS**
 
 * `~/Library/Application Support/Sublime Text 2/Packages`
+
 or
+
 * `~/Library/Application Support/Sublime Text 3/Packages`
 
 **Linux**
 
 * `~/.Sublime Text 2/Packages`
+
 or
+
 * `~/.Sublime Text 3/Packages`
 
 **Windows**
 
 * `%APPDATA%/Sublime Text 2/Packages/`
+
 or
+
 * `%APPDATA%/Sublime Text 3/Packages/`
 
 #### TextMate
