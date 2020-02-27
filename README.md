@@ -61,4 +61,4 @@ or
 ## License
 
 This project is open source software licensed under the MIT License. See the LICENSE file for more.
-Copyright (c) 2014-2017, Zephir Team
+Copyright (c) 2014-2020, Zephir Team
