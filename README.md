@@ -61,4 +61,4 @@ or
 ## License
 
 This project is open source software licensed under the MIT License. See the [LICENSE](https://github.com/zephir-lang/zephir-sublime/blob/master/LICENSE) file for more.
-Copyright (c) 2014-2020, Zephir Team
+Copyright (c) 2014-2021, Zephir Team
